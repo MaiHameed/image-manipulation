@@ -1,0 +1,6 @@
+img         = imread("rgb.png");
+img2        = imread("house.tiff");
+
+imshow(img);
+figure;
+imshow("house.tiff");

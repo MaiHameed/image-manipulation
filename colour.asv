@@ -1,0 +1,24 @@
+[img_r, img_g, img_b] = imsplit(img);
+imgRBSwap = cat(3,img_b,img_g,img_r);
+imgGray = rgb2gray(img);
+
+subplot(1,5,1);
+imshow(img);
+title("Original Image");
+
+subplot(2,2,1);
+imshow(imgRBSwap);
+title("Red and Blue Swapped");
+
+subplot(2,2,2);
+imshow(img_g);
+title("Green Channel");
+
+subplot(2,5,4);
+imshow(img_r);
+title("Red Channel");
+
+subplot(1,5,5);
+imshow(imgGray);
+title("Grayscale Image");
+figure;
