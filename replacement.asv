@@ -1,7 +1,0 @@
-img         = imread("rgb.png");
-img2        = imread("house.tiff");
-imgGray     = rgb2gray(img);
-img2Gray    = rgb2gray(img2);
-
-combinedImage
-
